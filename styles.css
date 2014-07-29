@@ -158,13 +158,18 @@ aside {
   .School-Logos .schools {
     margin-top: 10px; }
     .School-Logos .schools a {
-      width: 80%; }
+      width: 80%;
+      height: 100%; }
       .School-Logos .schools a img {
-        width: 60%; }
-  .all-companies .company {
-    padding: 0px; }
-    .all-companies .company img {
-      width: 30%; }
+        width: 45%; }
+  .all-companies {
+    margin: 0px; }
+    .all-companies .company {
+      width: 60px;
+      padding: 0px;
+      margin-left: 10px; }
+      .all-companies .company img {
+        width: 60px; }
   .all-events section {
     display: none; }
   .all-events aside .resource h3 {
