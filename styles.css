@@ -150,6 +150,12 @@ aside {
     text-decoration: none; }
 
 @media all and (max-width: 640px) {
+  .mainnav {
+    position: relative;
+    text-align: center;
+    top: 0px;
+    right: 0px;
+    margin-top: 10px; }
   .main-images img {
     width: 90%; }
   .schools-header {
@@ -164,18 +170,35 @@ aside {
         width: 45%; }
   .all-companies {
     margin: 0px; }
+    .all-companies h2 {
+      margin: 10px; }
+    .all-companies p {
+      margin: 10px; }
     .all-companies .company {
       width: 60px;
       padding: 0px;
       margin-left: 10px; }
       .all-companies .company img {
         width: 60px; }
-  .all-events section {
-    display: none; }
-  .all-events aside .resource h3 {
-    width: 100%; }
+  .all-events {
+    margin: 0px; }
+    .all-events h1 {
+      text-align: center;
+      padding: 0px; }
+    .all-events section {
+      display: none; }
+    .all-events aside {
+      width: 100%;
+      padding: 0px; }
+      .all-events aside .resource h3 {
+        width: 100%; }
   .bottomnav {
     display: none; }
+  .all-jobs {
+    margin: 0px;
+    padding: 0px; }
+    .all-jobs .jobs-h2 {
+      margin: 0px; }
   .master-column {
     padding: 0px; }
     .master-column span {
